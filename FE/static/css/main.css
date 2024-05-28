@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.upload-form {
+    max-width: 400px;
+    width: 100%;
+}
+
+.results {
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
